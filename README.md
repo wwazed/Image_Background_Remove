@@ -13,5 +13,5 @@ This notebook, BG_Remove.ipynb, demonstrates the process of removing the backgro
   5. Matplotlib
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
-## Licence
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
