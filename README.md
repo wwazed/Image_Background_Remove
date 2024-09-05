@@ -5,6 +5,8 @@ This notebook, BG_Remove.ipynb, demonstrates the process of removing the backgro
 **Model Architecture**: Detectron2's Mask R-CNN model is used for instance segmentation. The model is pre-trained on the COCO dataset. The device is set to either GPU or CPU depending on availability.
 **Segmentation Masks**: Once the model detects the objects in the image, it outputs segmentation masks, which are used to identify the object of interest.
 **Mask Application**: The mask is applied to the image to isolate the object, removing the background around the detected object.
+## Dataset
+The image dataset is retrieved from https://www.kaggle.com/datasets/mexwell/locbeef-beef-quality-image-dataset
 ## Requirements
   1. Python 3.12
   2. PyTorch
