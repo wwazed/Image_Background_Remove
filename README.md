@@ -1,8 +1,8 @@
 # Image_Background_Remove
-This notebook, BG_Remove.ipynb, demonstrates the process of removing the background from images using **Mask R-CNN** algorithm. The model leverages modern computer vision algorithms to detect and extract the foreground objects, while eliminating the background, which is useful for tasks like object segmentation, product photo editing, or artistic design.
+This notebook, BG2.ipynb, demonstrates the process of removing the background from images using **YOLO** algorithm. The model leverages modern computer vision algorithms to detect and extract the foreground objects, while eliminating the background, which is useful for tasks like object segmentation, product photo editing, or artistic design.
 ## Key Features
 **Image Preprocessing**: For reading and writing the images, OpenCV library is used here. pscaling technique is used for converting all images into same heights and widths.\
-**Model Architecture**: Detectron2's Mask R-CNN model is used for instance segmentation. The model is pre-trained on the COCO dataset. The device is set to either GPU or CPU depending on availability.\
+**Model Architecture**: The script uses the YOLOv8 model architecture from the ultralytics library. YOLOv8 is part of the YOLO (You Only Look Once) family of models, which are known for their real-time object detection capabilities.\
 **Segmentation Masks**: Once the model detects the objects in the image, it outputs segmentation masks, which are used to identify the object of interest.\
 **Mask Application**: The mask is applied to the image to isolate the object, removing the background around the detected object.\
 ## Dataset
